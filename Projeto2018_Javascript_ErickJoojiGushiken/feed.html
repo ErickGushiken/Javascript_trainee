@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>PiuPiuwer</title>
+        <link class="icon" rel="icon" href="imagens/piupiuwer_logo_color.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li class="logo_image">
+                    <a href="feed.html">
+                        <img src="imagens/piupiuwer_logo_color.png" alt="logo_colorido">
+                        <p class="texto">PiuPiuwer</p>
+                    </a>
+                </li>
+                <li class="header_direita">
+                    <ul>
+                        <li>
+                            <a href="feed.html">
+                                <span class="icone" id="home">Home</span>
+                                <span class="texto">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://google.com ">
+                                <span class="icone" id="configuraçoes">Personalização</span>
+                                <span class="texto">Personalização</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Login.html">
+                                <span class="icone" id="sair">Sair</span>
+                                <span class="texto">Sair</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <form class="barra_pesquisa_header">
+                        <input type="text" id="texto_pesquisa" placeholder="Pesquisar">
+                        <button type="submit" class="botoes">
+                            <span class="icone" id="pesquisar"></span>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </header>
+        <nav class="left">
+                <img class="your_picture" src="imagens/your_picture.png" alt="your_picture">
+                <h1 class="seu_nome">Seu_Nome</h1>
+                <div class="estatistica_pessoal">
+                    <p>Seus Posts</p>
+                    <ul class="icones-reaçao">
+                        <li>
+                            <span class="curtir">Curtir</span>
+                            <h2>Curtir</h2>
+                            <p>30.000</p>
+                        </li>
+                        <li>
+                            <span class="heart">Heart</span>
+                            <h2>Heart</h2>
+                            <p>600.000</p>
+                        </li>
+                        <li>
+                            <span class="smile">Smile</span>
+                            <h2>Smile</h2>
+                            <p>15.000</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="feed_about_you">
+                    <p>Sobre você</p>
+                    <div class="notif">
+                        Fulano curtiu seu post
+                    </div>
+                    <div class="notif">
+                        Fulando comentou post
+                    </div>
+                    <div class="notif">
+                        Fulano amou post
+                    </div>
+                    <div class="notif">
+                        Seu post tem 50 likes
+                    </div>
+                    <div class="notif">
+                        post #5566515 foi compartilhado
+                    </div>
+    
+                </div>
+            </nav>
+        <div class="geral">
+            <main>
+                <div class="post">
+                    <span class="aviso hide">Aviso</span>
+                    
+
+                        <textarea id="novo_post" name="post" cols="30" rows="6" placeholder="Escreva aqui..."></textarea>
+                    <div class="botoes_açao">
+                        <li><button class="destacar">Configurar</button></li>
+                        <li><button class="curtir">Compartilhar</button></li>
+                        <li class="contador">
+                                <p>0/140 caracteres</p>
+                            </li>  
+                            <li class="caixa_flutuante">
+                                <button type="submit" class="botoes_flutuante">
+                                    <span class="icone" id="postar"></span>
+                                </button>
+                            </li>   
+                    </div>
+                </div>
+            </main>
+        </div>
+        <nav class="right">
+            <h1 class="title">Friends</h1>
+            <form class="barra_pesquisa">
+                <input type="text" id="texto_amigo" placeholder="Buscar amigos">
+                <button type="submit" class="botoes"><span class="icone" id="pesquisar"></span></button>
+            </form>
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+            </div>  
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+            </div>  
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+            </div>  
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+            </div>  
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+            </div>  
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+            </div>  
+        </nav>
+        
+        <footer>
+            <ul>
+                <li>
+                    <p class="app_name"></p>PiuPiuwer</p>
+                </li>
+                <li>
+                    <p class="author">Criado por: Erick Gushiken</p>
+                </li>
+            </ul>
+        </footer>
+
+
+    <script src="js/botoesMensagem.js"></script>
+    <script src="js/conta_palavras.js"></script>
+    <script src="js/importa_mensagens.js"></script>
+    <script src="js/adicionaMensagem.js"></script>
+    <script src="js/inputPost.js"></script>
+    <script src="js/validaPost.js"></script>
+    <script src="js/apaga_input.js"></script>
+    </body>
+</html>

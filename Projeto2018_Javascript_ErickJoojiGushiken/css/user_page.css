@@ -1,0 +1,593 @@
+html{
+    margin: 0px;
+    min-height: 100%;
+}
+.geral{
+    top: 200px;
+    width: 100%;
+}
+.botoes_açao a, .botoes_friend a{
+    color: black;
+    text-decoration: none;
+}
+
+.header_direita a, .logo_image a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #517fa4;
+    background-image: linear-gradient(135deg,transparent,transparent 14px,rgba(0,0,0,0.1) 14px, rgba(0,0,0,0.1) 15px,transparent 15px,transparent);
+    background-attachment: fixed;
+    background-size: 24px 24px;
+    margin: 0px;
+    padding: 0%;
+    height: 500px;
+    border-bottom: 0px;
+    display: inline-block;
+}
+header{
+    position: fixed;
+    top: 0px;
+    display: inline-block;
+    height:40px;
+    width: 100%;
+    padding: 4px;
+    text-align: left;
+	background-color: rgb(0,0,0);
+    color: #F2FFFC;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+header li img{
+    height:30px;
+}
+header li{
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+
+.header_direita{
+    position: fixed;
+    right: 3%;
+}
+.header_direita li{
+    border-style: solid;
+    border-color: white;
+    border-left-width: 1px;
+    padding-left: 0.2rem;
+    padding-right: 1rem;
+}
+.header_direita .texto, .logo_image .texto{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: -0.2rem;
+}
+.header_direita .texto{
+    top: 0.4rem;
+}
+.icone_menu{
+    background-color: #F2FFFC;
+    border-radius: 50%;
+}
+.header_direita .icone{
+    color:turquoise;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-indent: 100000px;
+}
+#menu_header{
+    background-image: url(../imagens/icone_menu.png);
+}
+#configuraçoes{
+    background-image: url(../imagens/icone_settings.png);
+}
+#sair{
+    background-image: url(../imagens/icone_sair.png);
+}
+#home{
+    background-image: url(../imagens/icone_home.png);
+}
+.barra_pesquisa_header{
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    align-content: center;
+    width: 150%;
+    left: 200%;
+}
+#texto_pesquisa{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    width:80%;
+    display: inline-block;
+    padding: 0.3rem;
+    width: 83%;
+    margin-left: -2px;
+}
+.left{
+    background-color: #8b9dc3;
+    box-sizing: border-box;
+    position: fixed;
+    float: left;
+    top:0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 2%;
+    height: 85%;
+    width:15%;
+    padding: 1rem;
+    border-radius: 20px;   
+    clear: both;
+}
+.your_picture{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 25%;
+    align-content: center;
+    position: relative;
+    margin-top:10px;
+    clear: both;
+}
+.seu_nome{
+    color: #164bbe;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.left div{
+    width: 200px;
+    margin-left: -3%;   
+}
+.left div div{
+    margin-left: 3%;
+    width: 185px;
+}
+.estatistica_pessoal{
+    color: black;
+    background: white;
+    margin-top: 10px;
+    padding: 4px;
+    height: 100px;
+}
+.estatistica_pessoal>p, .feed_about_you>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9 rem;
+    padding: 0.3rem;
+}
+.icones-reaçao :nth-child(1){
+    margin-left: 7px;
+}
+.icones-reaçao li {
+    display: inline-block;
+    padding: 3px;
+}
+.icones-reaçao span {
+    width: 40px;
+    background-size: 40px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-indent: -99999999px;
+}
+.icones-reaçao h2{
+    color:rgb(32, 32, 32);
+    text-indent: 0.4rem;
+    text-align: center;
+    padding: 0.2rem;
+}
+.icones-reaçao p{
+    text-align: center;
+    font-size: 0.7rem;
+}
+.heart {
+    background-image: url(../imagens/heart_gif.gif);
+}
+.curtir {
+    background-image: url(../imagens/icone_curtir.png);
+}
+.smile {
+    background-image: url(../imagens/emoticon_gif.gif);
+}
+.feed_about_you{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,0.3);
+    height: 250px;
+    width: 100px;
+    padding: 4px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.notif{
+    float: none;
+    left: 15px;
+    margin: 6px;
+    background-color: white;
+    height: 90px;
+    padding: 0.1rem;
+    border-radius: 5px;
+}
+.notif p{
+    margin-top: 5px;
+    padding-top: 0.5rem;
+    padding: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+    
+}
+.caixa{
+    background: #F2FFFC;
+    display: float;
+    width: 10px;
+}
+.right{
+    background-color: rgb(201, 204, 209);
+    box-sizing: border-box;
+    position: fixed;
+    float: right;
+    top:0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 79%;
+    height: 70%;
+    width:290px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    clear: both;
+    box-shadow: -8px 8px 10px  rgb(0, 0, 0);
+}
+.barra_pesquisa{
+    background-color: white;
+    border-radius: 5px;
+}
+button.botoes{
+    background-color: white; 
+    border-radius: 8px;
+    border: 1px;
+    border-style: solid;
+    color: white;
+    width: 12%;
+    height: 24px;
+    float: right;
+}
+.botoes_opçoes{
+    font-size: 0.6rem;
+}
+#texto_amigo{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    width:80%;
+    display: inline-block;
+    padding: 0.2rem;
+}
+main{
+    background-color: rgba(245, 245, 245, 0.5);
+    border-width: 1px;
+    border-style:solid;
+    border-color:black;
+    box-sizing: border-box;
+    margin-top:63px;
+    margin-bottom:50px;
+    margin-left: 315px;
+    width: 790px;
+    display: inline-block;
+    clear: both;
+}
+h1{
+    font-size: 2rem;
+    padding: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #154360;
+}
+h3{
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c3cdd3;
+}
+.right h2{
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #154360;
+}
+.criar_post{
+    background-color: white;
+    padding: 0.3em;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    background-color: 282829;
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 96%;
+}
+.criar_post p{
+    margin: 0.5px;
+    border: 3px;
+    border-color: white;
+    border-bottom: 500px;
+    text-align: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+#novo_post{
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    height: 100%;
+    width: 99.3%;
+    padding:0.3rem;    
+}
+.novo_post_caixa{
+    background-color: rgb(214, 214, 214);
+    color: black;
+    height: 100px;
+    width: 99%;
+    display: inline-block;
+    border-radius:10px;
+    margin-bottom: 5px;
+}
+
+.post, .post_sobre{
+    width: 96%;
+    background-color: white;
+    padding: 0.3em;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    background-color: 282829;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-break: auto;
+}
+
+.post p, .post_sobre p{
+   top: -20px;
+    margin: 10px;
+    border: 5px;
+    border-color: #282829;
+    border-bottom: 500px;
+    text-align: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    display: inline-block;
+}
+p.origem{
+    text-align: left;
+    margin-left: 100px;
+    font-size: 0.8rem;
+}
+.botoes .texto{
+    margin: 18px;
+    font-size: 1rem;
+}
+.botoes_friend .texto{
+    font-size:0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post>div, .post_sobre>div{
+    background-color: rgba(245, 245, 245, 3.1);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 0.1rem;
+    box-shadow: 10px 10px 0px -7px rgba(0,0,0,0.75);
+}
+.post_sobre>div{
+    margin-top: 1rem;
+}
+
+.post> div p, .post_sobre> div p{
+    text-indent: 10px;
+}
+.caixa_flutuante button{
+    top: -1000px;
+    background-color: white; 
+    border-radius: 50%;
+    border-style: none;
+    color: white;
+    width: 65px;
+    height: 65px;
+}
+.caixa_flutuante{
+    background-color: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    float: right;
+    margin-right: -6px;
+}
+.botoes_flutuante .icone{
+    color:turquoise;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 60px;
+    margin-left: -2px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    display:inline-block;
+    text-indent: -999px;
+}
+.botoes .icone{
+    color:turquoise;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: inline-block;
+    text-indent: -999px;
+}
+.botoes_friend .icone{
+    color:turquoise;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-indent: 999px;
+}
+
+.icone#pesquisar{
+    position: relative;
+    color:turquoise;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    margin-top:-5px ;
+    width: 19px;
+    height: 19px;
+    float: right;
+    margin-bottom: 100px;
+}
+#configurar{
+    background-image: url(../imagens/icone_configurar.png);
+}
+#emoji{
+    background-image: url(../imagens/emoji_gif.gif);
+}
+#postar{
+    background-image: url(../imagens/postar_gif.gif);
+}
+#compartilhar{
+    background-image: url(../imagens/icone_compartilhar.png);
+}
+#curtir{
+    background-image: url(../imagens/icone_curtir.png);
+}
+#comentar{
+    background-image: url(../imagens/icone_comentar.png);
+}
+#adicionar{
+    background-image: url(../imagens/icone_adicionar.png);
+}
+#remover{
+    background-image: url(../imagens/icone_remover.png);
+}
+#pesquisar{
+    background-image: url(../imagens/icone_pesquisar.png);
+}
+.botoes{
+    border-bottom-width:1px;
+    border-style:solid;
+    padding-top: 3%;
+    border-color: black;
+    background-color:white;
+    color: Black;
+    display: inline-block;
+    margin: 1px;
+    margin-right: 1px;
+    border-radius: 10px;
+}
+.botoes_açao{
+    border-top-width:1px;
+    padding-left: 15px;
+    padding:0;
+    width: 100%;
+    position: ;
+}
+.botoes_açao li{
+    margin-left: 15px;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    padding: 0.5rem;
+}
+.friend_picture{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    float: left;
+    position: relative;
+    margin-top:-10px;
+    margin-left: -10px;
+}
+.friend_profile_pic{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top:-5px;
+    margin-left: -10px;
+    display:inline-block;
+    clear: both;
+}
+p.friend_name{
+    text-indent: 10px;
+    font-size: 1 rem;
+}
+.friend_container{
+    margin: 2px;
+    margin-top: 13px;
+    background-color: white;
+    height: 15%;
+    width: 93%;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.friend_container p{
+    text-indent: 20px;
+    margin-bottom: 5px;
+}
+.botoes_opçoes ul{
+    margin-bottom: 3px;
+    display: grid;
+}
+footer{
+    box-sizing: inherit;
+    padding: 0.2em 10px;
+    text-align: left;
+    display: inline-block;
+	background-color: rgb(0, 0, 0);
+    color: #F2FFFC;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+}
+footer li{
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+.author{
+    position: relative;
+    left:1260px;
+}

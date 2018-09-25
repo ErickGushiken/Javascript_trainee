@@ -1,0 +1,411 @@
+/* GERAL */
+html{
+    margin: 0px;
+    min-height: 100%;
+}
+.geral{
+    top: 200px;
+    width: 100%;
+}
+body{
+    background-color: #517fa4;
+    background-image: linear-gradient(135deg,transparent,transparent 14px,rgba(0,0,0,0.1) 14px, rgba(0,0,0,0.1) 15px,transparent 15px,transparent);
+    background-attachment: fixed;
+    background-size: 24px 24px;
+    margin: 0px;
+    padding: 0%;
+    height: 100%;
+    border-bottom: 0px;
+    display: fixed;
+}
+/* HEADER */
+header{
+    position: fixed;
+    top: 0px;
+    display: inline-block;
+    height:6%;
+    width: 100%;
+    padding: 4px;
+    text-align: left;
+    background-color: rgb(0,0,0);
+    color: #F2FFFC;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+header li img{
+    height:2rem;
+}
+header li{
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+.header_direita{
+    position: fixed;
+    left: 97%;
+}
+.icone_menu{
+    background-color: #F2FFFC;
+    border-radius: 50%;
+}
+.header_direita .icone{
+    color:turquoise;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-indent: 100000px;
+}
+#menu_header{
+    background-image: url(../imagens/icone_menu.png);
+}
+.barra_pesquisa_header{
+    display: inline-block;
+    background-color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    align-content: center;
+    width: 150%;
+    left: 200%;
+}
+#texto_pesquisa{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0.1rem;
+    border-style: solid;
+    width:80%;
+    display: inline-block;
+    padding: 0.3rem;
+    width: 83%;
+    margin-left: -1rem;
+}
+/* LOGIN */
+.left{
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    display: block;
+    box-sizing: border-box;
+    margin-top:70px;
+    margin-left: 77px;
+    height: 570px;
+    width:460px;
+    padding: 1rem;
+    border-radius: 2rem;
+    clear: both;
+}
+/*SIGN UP */
+.left_2{
+    background-color:rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    float: left;
+    top:0px;
+    margin-top: 80px;
+    margin-left: 77px;
+    margin-bottom: 65px;
+    height: 600px;
+    width:460px;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.your_picture{
+    border-radius: 50%;
+    width: 10rem;;
+    height: 10rem;
+    margin-left: 33%;
+    margin-top:0.01rem;
+    left: 8.5rem;
+}
+.piupiuwer{
+    top: 10px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 18rem;
+    height: auto;
+    margin-top:0.01rem;
+    left: 6rem;
+}
+.username{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.left div, .left_2 div{
+    width: 100%;
+    margin-left: -0.6em;  
+}
+.username{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+fieldset{
+    display: flex;
+}
+div.dados_login, div.dados_pessoais{
+    color: whitesmoke;
+    background: rgba(0,0,0,0.0);
+    margin-top: 1rem;
+    margin-left: -0.01rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    height: 45%;
+    width: 90%;
+    display: block;
+}
+.enviar_botao{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 45%;
+    border-radius: 100%;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    border-style: none;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+.dados_login h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  1.5rem;
+    padding: 0.3rem;
+}
+.dados_login input{
+    color: white;
+    background: rgba(0,0,0,0.5);
+    margin-top: 3%;
+    padding: 1rem;
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.dados_pessoais .two_cols input:nth-child(1){
+    width: 8rem;
+}
+.dados_pessoais .two_cols label:nth-child(2){
+    margin-left: 0.8rem;
+}
+.dados_pessoais .two_cols input{
+    background: rgba(0,0,0,0.5);
+    width: 2rem;
+    margin-left: rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    color: white;
+}
+.dados_pessoais .confirma_dados input{
+    background: rgba(0,0,0,0.5);
+    width: 2rem;
+    margin-left: rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    color: white;
+}
+.dados_pessoais input{
+    background: rgba(0,0,0,0.5);
+    width: 15rem;
+    height:1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    color: white;
+}
+.dados_login button{
+    margin-left: 42%;
+    margin-top: 1rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+    border-style: none;
+}
+.caixa_flutuante{
+    background-color: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin-top: 5%;
+    margin-left: 44%;
+}
+.botoes_flutuante .icone{
+    color:turquoise;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 60px;
+    margin-left: -2rem;
+    margin-top: -2rem;
+    border-radius: 5px;
+    text-indent: -999px;
+}
+.barra_pesquisa{
+    background-color: white;
+    border-radius: 5px;
+}
+button.botoes{
+    background-color: white; 
+    border-radius: 8px;
+    border: 1px;
+    border-style: solid;
+    color: white;
+    width: 12%;
+    height: 24px;
+    float: right;
+}
+/* MAIN */
+main{
+    background-color: rgba(245, 245, 245, 0);
+    box-sizing: border-box;
+    margin-top:6px;
+    margin-bottom:50px;
+    margin-left: 620px;
+    width: 860px;
+    height: 560px;
+    position: fixed;    
+}
+.logo{
+    background: rgba(0,0,0,0.8);
+    border-radius: 2rem;
+}
+.logo h1{
+    color: #F2FFFC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    display: inline-block;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.outro_usuario p{
+    margin-top:1%;
+}
+.sem_cadastro p{
+    margin-top:1%;
+}
+.sem_cadastro , .outro_usuario{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 1rem;
+    border-color: black;
+    border-width: 0.1px;
+    border-style: solid;
+    height: 109px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.6);
+}
+.botoes .icone{
+    color:turquoise;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: inline-block;
+    text-indent: -999px;
+}
+.botao .icone{
+    color:turquoise;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: inline-block;
+    text-indent: -999px;
+}
+.icone#pesquisar{
+    position: relative;
+    color:turquoise;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    margin-top:-5px ;
+    width: 19px;
+    height: 19px;
+    float: right;
+    margin-bottom: 100px;
+}
+.icone#enviar{
+    position: relative;
+    color:turquoise;
+    background-size: 63px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: -6px;
+    margin-left: -15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#enviar,.enviar_botao{
+    background-image: url(../imagens/enviar_gif.gif);
+}
+
+#pesquisar{
+    background-image: url(../imagens/icone_pesquisar.png);
+}
+.botoes{
+    border-bottom-width:1px;
+    border-style:solid;
+    padding-top: 3%;
+    border-color: black;
+    background-color:white;
+    color: Black;
+    display: inline-block;
+    margin: 1px;
+    margin-right: 1px;
+    border-radius: 10px;
+}
+/* FOOTER */
+footer{
+    box-sizing: inherit;
+    padding: 0.2em 10px;
+    text-align: left;
+    display: inline-block;
+	background-color: rgb(0, 0, 0);
+    color: #F2FFFC;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+}
+footer li{
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+.author{
+    position: relative;
+    left:1260px;
+}

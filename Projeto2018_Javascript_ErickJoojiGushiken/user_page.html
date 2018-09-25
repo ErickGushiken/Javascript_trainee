@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>PiuPiuwer</title>
+        <link class="icon" rel="icon" href="imagens/piupiuwer_logo_color.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/user_page.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li class="logo_image">
+                    <a href="feed.html">
+                        <img src="imagens/piupiuwer_logo_color.png" alt="logo_colorido">
+                        <p class="texto">PiuPiuwer</p>
+                    </a>
+                </li>
+                <li class="header_direita">
+                    <ul>
+                        <li>
+                            <a href="feed.html">
+                                <span class="icone" id="home">Home</span>
+                                <span class="texto">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://google.com ">
+                                <span class="icone" id="configuraçoes">Personalização</span>
+                                <span class="texto">Personalização</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Login.html">
+                                <span class="icone" id="sair">Sair</span>
+                                <span class="texto">Sair</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <form class="barra_pesquisa_header">
+                        <input type="text" id="texto_pesquisa" placeholder="Pesquisar">
+                        <button type="submit" class="botoes">
+                            <span class="icone" id="pesquisar"></span>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </header>
+        <div class="geral">
+            <main>
+                <div class="criar_post">
+                    <h1>Criar nova postagem</h1>
+                    <div class="novo_post_caixa">
+                        <textarea id="novo_post" name="post" cols="30" rows="6" placeholder="Escreva aqui..."></textarea>
+                    </div>
+                    <div class="botoes_açao">
+                        <ul>
+                            <li>
+                                <a href="https://google.com " class="botoes">
+                                    <span class="icone" id="compartilhar">compartilhar</span>
+                                    <span class="texto">Compartilhar</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://google.com " class="botoes">
+                                    <span class="icone" id="emoji">emoji</span>
+                                    <span class="texto">Feeling</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://google.com " class="botoes">
+                                    <span class="icone" id="configurar">configurar</span>
+                                    <span class="texto">Configurar</span>
+                                </a>
+                            </li>   
+                            <li class="caixa_flutuante">
+                                <button type="submit" class="botoes_flutuante">
+                                    <span class="icone" id="postar"></span>
+                                </button>
+                            </li>                     
+                        </ul>
+                    </div>
+                </div>
+                <div class="post_sobre">
+                    <h1># Posts sobre @Seu_Nome</h1>
+                    <div>
+                        <img class="friend_profile_pic" src="imagens/friend_picture.png" alt="friend_picture">
+                        <P>@ Seu_Nome feliz aniversário !!!!</p>
+                        <p class="origem">by: Fulano de Tal</p>
+                        <div class="botoes_açao">
+                            <ul>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="compartilhar">compartilhar</span>
+                                        <span class="texto">Compartilhar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="emoji">emoji</span>
+                                        <span class="texto">Feeling</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="curtir">curtir</span>
+                                        <span class="texto">Curtir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="comentar">comentar</span>
+                                        <span class="texto">Comentar</span>
+                                    </a>
+                                </li> 
+                                <li class="botoes_opçoes">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox">Destacar
+                                        </li>
+                                        <li>
+                                            <input type="checkbox">Esconder
+                                        </li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="friend_profile_pic" src="imagens/friend_picture.png" alt="friend_profile_pic">
+                        <P>No role com o @Seu_Nome</p>
+                        <p class="origem">by: Fulano de Tal</p>
+                        <div class="botoes_açao">
+                            <ul>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="compartilhar">compartilhar</span>
+                                        <span class="texto">Compartilhar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="emoji">emoji</span>
+                                        <span class="texto">Feeling</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="curtir">curtir</span>
+                                        <span class="texto">Curtir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="comentar">comentar</span>
+                                        <span class="texto">Comentar</span>
+                                    </a>
+                                </li> 
+                                <li class="botoes_opçoes">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox">Destacar
+                                        </li>
+                                        <li>
+                                            <input type="checkbox">Esconder
+                                        </li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="friend_profile_pic" src="imagens/friend_picture.png" alt="friend_profile_pic">
+                        <P>Essa é outra mensagem</p>
+                        <p class="origem">by: Fulano de Tal</p>
+                        <div class="botoes_açao">
+                            <ul>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="compartilhar">compartilhar</span>
+                                        <span class="texto">Compartilhar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="emoji">emoji</span>
+                                        <span class="texto">Feeling</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="curtir">curtir</span>
+                                        <span class="texto">Curtir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="comentar">comentar</span>
+                                        <span class="texto">Comentar</span>
+                                    </a>
+                                </li> 
+                                <li class="botoes_opçoes">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox">Destacar
+                                        </li>
+                                        <li>
+                                            <input type="checkbox">Esconder
+                                        </li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="friend_profile_pic" src="imagens/friend_picture.png" alt="friend_profile_pic">
+                        <P>Essa é outra mensagem</p>
+                        <p class="origem">by: Fulano de Tal</p>
+                        <div class="botoes_açao">
+                            <ul>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="compartilhar">compartilhar</span>
+                                        <span class="texto">Compartilhar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="emoji">emoji</span>
+                                        <span class="texto">Feeling</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="curtir">curtir</span>
+                                        <span class="texto">Curtir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="comentar">comentar</span>
+                                        <span class="texto">Comentar</span>
+                                    </a>
+                                </li> 
+                                <li class="botoes_opçoes">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox">Destacar
+                                        </li>
+                                        <li>
+                                            <input type="checkbox">Esconder
+                                        </li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="friend_profile_pic" src="imagens/friend_picture.png" alt="friend_profile_pic">
+                        <P>Essa é outra mensagem, muito mais longa que a anterior !!!!</p>
+                        <p class="origem">by: Fulano de Tal</p>
+                        <div class="botoes_açao">
+                            <ul>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="compartilhar">compartilhar</span>
+                                        <span class="texto">Compartilhar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="emoji">emoji</span>
+                                        <span class="texto">Feeling</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="curtir">curtir</span>
+                                        <span class="texto">Curtir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="comentar">comentar</span>
+                                        <span class="texto">Comentar</span>
+                                    </a>
+                                </li> 
+                                <li class="botoes_opçoes">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox">Destacar
+                                        </li>
+                                        <li>
+                                            <input type="checkbox">Esconder
+                                        </li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <h1># Posts de @Seu_Nome</h1>
+                    <div>
+                        <P>Semana de P1 tá osso... hsuahsausahu</p>
+                        <div class="botoes_açao">
+                            <ul>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="compartilhar">compartilhar</span>
+                                        <span class="texto">Compartilhar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="emoji">emoji</span>
+                                        <span class="texto">Feeling</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="curtir">curtir</span>
+                                        <span class="texto">Curtir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="comentar">comentar</span>
+                                        <span class="texto">Comentar</span>
+                                    </a>
+                                </li> 
+                                <li class="botoes_opçoes">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox">Destacar
+                                        </li>
+                                        <li>
+                                            <input type="checkbox">Esconder
+                                        </li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <P>No role com o @Fulano</p>
+                        <div class="botoes_açao">
+                            <ul>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="compartilhar">compartilhar</span>
+                                        <span class="texto">Compartilhar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="emoji">emoji</span>
+                                        <span class="texto">Feeling</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="curtir">curtir</span>
+                                        <span class="texto">Curtir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="comentar">comentar</span>
+                                        <span class="texto">Comentar</span>
+                                    </a>
+                                </li> 
+                                <li class="botoes_opçoes">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox">Destacar
+                                        </li>
+                                        <li>
+                                            <input type="checkbox">Esconder
+                                        </li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <P>Essa é outra mensagem</p>
+                        <div class="botoes_açao">
+                            <ul>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="compartilhar">compartilhar</span>
+                                        <span class="texto">Compartilhar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="emoji">emoji</span>
+                                        <span class="texto">Feeling</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="curtir">curtir</span>
+                                        <span class="texto">Curtir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://google.com " class="botoes">
+                                        <span class="icone" id="comentar">comentar</span>
+                                        <span class="texto">Comentar</span>
+                                    </a>
+                                </li> 
+                                <li class="botoes_opçoes">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox">Destacar
+                                        </li>
+                                        <li>
+                                            <input type="checkbox">Esconder
+                                        </li>
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <nav class="left">
+            <img class="your_picture" src="imagens/your_picture.png" alt="your_picture">
+            <h1 class="seu_nome">Seu_Nome</h1>
+            <div class="estatistica_pessoal">
+                <p></p>
+                <ul class="icones-reaçao">
+                    <li>
+                        <span class="curtir">Curtir</span>
+                        <h2>Curtir</h2>
+                        <p>30.000</p>
+                    </li>
+                    <li>
+                        <span class="heart">Heart</span>
+                        <h2>Heart</h2>
+                        <p>600.000</p>
+                    </li>
+                    <li>
+                        <span class="smile">Smile</span>
+                        <h2>Smile</h2>
+                        <p>15.000</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="feed_about_you">
+                <h3>Sobre @Seu_Nome</h3>
+                <div class="notif">
+                    <p>
+                    Idade: 20 anos<br>
+                    Cidade natal: São Paulo <br>
+                    Cidade atual: São Paulo <br>
+                    Faculdade: POLI-USP
+                    </p>
+                </div>
+                <div class="notif">
+                    <p>
+                    Série: Scorpion<br>
+                    Esporte: Tenis de Mesa <br>
+                    Interesse: Engenharia <br>
+                    Comida: Churrasco
+                    </p>
+                </div>
+            </div>
+        </nav>
+        <nav class="right">
+            <h1 class="title">Amigos em comum</h1>
+            <form class="barra_pesquisa">
+                <input type="text" id="texto_amigo" placeholder="Procurar amigos de @Seu_Nome">
+                <button type="submit" class="botoes"><span class="icone" id="pesquisar"></span></button>
+            </form>
+            <h2>Sugestões de amizade</h2>
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+                <p>25 amigos em comum</p>
+                <div class="botoes_açao">
+                    <ul>
+                        <li>
+                            <a href="https://google.com " class="botoes_friend">
+                                <span class="icone" id="adicionar">adicionar</span>
+                                <span class="texto">Adicionar</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://google.com " class="botoes_friend">
+                                <span class="icone" id="remover">remover</span>
+                                <span class="texto">Remover</span>
+                            </a>
+                        </li>          
+                    </ul>
+                </div>
+            </div>  
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+                <p>25 amigos em comum</p>
+                <div class="botoes_açao">
+                    <ul>
+                        <li>
+                            <a href="https://google.com " class="botoes_friend">
+                                <span class="icone" id="adicionar">adicionar</span>
+                                <span class="texto">Adicionar</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://google.com " class="botoes_friend">
+                                <span class="icone" id="remover">remover</span>
+                                <span class="texto">Remover</span>
+                            </a>
+                        </li>          
+                    </ul>
+                </div>
+            </div>
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+                <p>25 amigos em comum</p>
+                <div class="botoes_açao">
+                    <ul>
+                        <li>
+                            <a href="https://google.com " class="botoes_friend">
+                                <span class="icone" id="adicionar">adicionar</span>
+                                <span class="texto">Adicionar</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://google.com " class="botoes_friend">
+                                <span class="icone" id="remover">remover</span>
+                                <span class="texto">Remover</span>
+                            </a>
+                        </li>          
+                    </ul>
+                </div>
+            </div>
+            <div class="friend_container">
+                <img class="friend_picture" src="imagens/friend_picture.png" alt="friend_picture">
+                <p class="friend_name">João</p>
+            </div>   
+        </nav>
+        
+        <footer>
+            <ul>
+                <li>
+                    <p class="app_name"></p>PiuPiuwer</p>
+                </li>
+                <li>
+                    <p class="author">Criado por: Erick Gushiken</p>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

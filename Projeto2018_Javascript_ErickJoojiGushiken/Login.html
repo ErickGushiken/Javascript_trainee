@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Enviar informação base para controle de dimensão -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>PiuPiuwer - Login</title>
+        <link class="icon" rel="icon" href="imagens/piupiuwer_logo_color.png">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/reset.css">
+    </head>
+
+    <body>
+        <header>
+            <ul>
+                <li class="logo_image">
+                    <a href="feed.html">
+                        <img src="imagens/piupiuwer_logo_color.png" alt="logo_colorido">
+                    </a>
+                </li>
+                <li>
+                    <p>PiuPiuwer</p>
+                </li>
+                <li class="header_direita">
+                    <span class="icone" id="menu_header">menu</span>
+                </li>
+                <li>
+                    <form class="barra_pesquisa_header">
+                        <input type="text" id="texto_pesquisa" placeholder="Pesquisar">
+                        <button type="submit" class="botoes"><span class="icone" id="pesquisar"></span></button>
+                    </form>
+                </li>
+            </ul>
+        </header>
+        <div class="geral">
+            <main>
+                <div>
+                    <div class="logo">
+                        <img class="piupiuwer" src="imagens/piupiuwer_logo_color.png" alt="piupiuwer">
+                        <h1>PiuPiuwer</h1>
+                    </div>
+                    <button class="outro_usuario">
+                        <p>Logar com outro usuário</p>
+                    </button>
+                    <button class="sem_cadastro">
+                        <p>Ainda não tenho uma conta <br>
+                            A ideia é que ao clicar no botão a pagina role e leve ao SIGN UP
+                        </p>
+                    </button>
+                </div> 
+            </main>
+            <nav class="left">      
+                <img class="your_picture" src="imagens/your_picture.png" alt="your_picture">
+                <h1 class="username">Username_Saved</h1>
+                <div class="dados_login">
+                    <form>
+                        <fieldset>
+                            <ul>
+                                <li>
+                                    <h1>Login</h1>
+                                </li>
+                                <li>
+                                    <input id=”username” name=”username” placeholder=Username type=”name” required autofocus>
+                                </li>
+                                <li>
+                                    <input id=”password” name=”password” placeholder=Password type="password" required autofocus>
+                                </li>
+                                <li class="caixa_flutuante">
+                                    <button type="submit" class="botao">
+                                        <span class="icone" id="enviar">Enviar</span>
+                                    </button>
+                                </li>
+                            </ul>    
+                        </fieldset>
+                    </form>    
+                </div>
+            </nav>
+            <nav class="left_2">      
+                <img class="your_picture" src="imagens/your_picture.png" alt="your_picture">
+                <h1 class="username">Sign Up</h1>
+                <div class="dados_pessoais">
+                    <form>
+                        <fieldset>
+                            <table>
+                                <tr>
+                                    <td><label for="nome">Nome:</label></td>
+                                    <td><input id=”nome” name=”nome” type=”text” required autofocus></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="sobrenome">Sobrenome:</label></td>
+                                    <td><input id=”sobrenome” name=”nome” type=”text” required autofocus></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="cidade">Cidade:</label></td>
+                                    <td><input id=”cidade” name=”cidade” type="text" autofocus></td>    
+                                </tr>
+                                <tr>
+                                    <td><label for="pais">País:</label></td>
+                                    <td><input id=”pais” name=”pais” type="text" autofocus></td>
+                                </tr>
+                                <tr class="two_cols">
+                                    <td>
+                                        <label for="telefone">Telefone:</label>
+                                    </td>
+                                    <td>
+                                        <input id=”telefone” name=”telefone” type="tel" pattern="\d*" autofocus>
+                                        <label for="idade">Idade:</label>
+                                        <input id=”idade” name=”idade” type="number" required autofocus>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="username">Username:</label></td>
+                                    <td><input id=”username” name=”username” type="text" placeholder="Escolha um nome para seu perfil" required autofocus></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="senha">Senha:</label></td>
+                                    <td>
+                                        <input id=”senha” name=”senha” type="password" placeholder="Crie uma senha" required autofocus>
+                                        <input id=”senha_confirmaçao” name=”senha_confirmaçao” type="password" placeholder="Digite a senha novamente" required autofocus>
+                                    </td>
+                                </tr>
+                                <tr class="confirma_dados">
+                                    <td><input type="checkbox" required></td>
+                                    <td><p>Confirmo a veracidade dos dados.</p></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        <button class="enviar_botao" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </nav>
+            <footer>
+                <ul>
+                    <li>
+                        <p class="app_name"></p>PiuPiuwer</p>
+                    </li>
+                    <li>
+                        <p class="author">Criado por: Erick Gushiken</p>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
